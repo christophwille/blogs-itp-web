@@ -1,0 +1,245 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFB8D482-5E83-481C-BAB9-92338EF31CB2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ItProBlogs</RootNamespace>
+    <AssemblyName>ItProBlogs</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BlogVorschlagen.aspx" />
+    <Content Include="css\core\base.css" />
+    <Content Include="css\core\iehacks.css" />
+    <Content Include="css\core\print_base.css" />
+    <Content Include="css\core\slim_base.css" />
+    <Content Include="css\core\slim_iehacks.css" />
+    <Content Include="css\core\slim_print_base.css" />
+    <Content Include="css\layout_2col_left_seo.css" />
+    <Content Include="css\navigation\dotnetgerman.css" />
+    <Content Include="css\navigation\images\shiny_buttons\background.gif" />
+    <Content Include="css\navigation\images\shiny_buttons\background_active.gif" />
+    <Content Include="css\navigation\images\sliding_door\round\bg.gif" />
+    <Content Include="css\navigation\images\sliding_door\round\left.gif" />
+    <Content Include="css\navigation\images\sliding_door\round\left_on.gif" />
+    <Content Include="css\navigation\images\sliding_door\round\right.gif" />
+    <Content Include="css\navigation\images\sliding_door\round\right_on.gif" />
+    <Content Include="css\navigation\images\vlist\square\node.gif" />
+    <Content Include="css\navigation\images\vlist\square\node_minus.gif" />
+    <Content Include="css\navigation\images\vlist\square\node_plus.gif" />
+    <Content Include="css\navigation\images\vlist\square\subnode.gif" />
+    <Content Include="css\navigation\images\vlist\square\subnode_minus.gif" />
+    <Content Include="css\navigation\images\vlist\square\subnode_plus.gif" />
+    <Content Include="css\navigation\nav_shinybuttons.css" />
+    <Content Include="css\navigation\nav_slidingdoor.css" />
+    <Content Include="css\navigation\nav_vlist.css" />
+    <Content Include="css\patches\patch_2col_left_seo.css" />
+    <Content Include="css\patches\patch_3col_fixed_seo.css" />
+    <Content Include="css\patches\patch_grids.css" />
+    <Content Include="css\print\print_003_draft.css" />
+    <Content Include="css\print\print_020_draft.css" />
+    <Content Include="css\print\print_023_draft.css" />
+    <Content Include="css\print\print_100_draft.css" />
+    <Content Include="css\print\print_103_draft.css" />
+    <Content Include="css\print\print_120_draft.css" />
+    <Content Include="css\print\print_123_draft.css" />
+    <Content Include="css\screen\basemod.css" />
+    <Content Include="css\screen\basemod_2col_left_seo.css" />
+    <Content Include="css\screen\basemod_3col_fixed_seo.css" />
+    <Content Include="css\screen\basemod_grids.css" />
+    <Content Include="css\screen\content.css" />
+    <Content Include="css\screen\dotnetgermancontent.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\bg_input.png" />
+    <Content Include="images\bloggers_headline.png" />
+    <Content Include="images\dotnetgemanbloggers_feedlogo.png" />
+    <Content Include="images\dotnetgermanbloggers_logo_400x97.png" />
+    <Content Include="images\friends\glengamoi_logo.png" />
+    <Content Include="images\friends_headline.png" />
+    <Content Include="images\rss.png" />
+    <Content Include="images\rss_87x97_reflected.png" />
+    <Content Include="Impressum.aspx" />
+    <Content Include="javascript\privacypolicy.js" />
+    <Content Include="JpegImage.aspx" />
+    <Content Include="MainFeed.aspx" />
+    <Content Include="PrivacyPolicy.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="atom.ashx.cs">
+      <DependentUpon>atom.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Blogs.Master.cs">
+      <DependentUpon>Blogs.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blogs.Master.designer.cs">
+      <DependentUpon>Blogs.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BlogVorschlagen.aspx.cs">
+      <DependentUpon>BlogVorschlagen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BlogVorschlagen.aspx.designer.cs">
+      <DependentUpon>BlogVorschlagen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaptchaImage.cs" />
+    <Compile Include="CompressingFilter.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeflateFilter.cs" />
+    <Compile Include="GZipFilter.cs" />
+    <Compile Include="HttpCompression.cs" />
+    <Compile Include="HttpOutputFilter.cs" />
+    <Compile Include="Impressum.aspx.cs">
+      <DependentUpon>Impressum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impressum.aspx.designer.cs">
+      <DependentUpon>Impressum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JpegImage.aspx.cs">
+      <DependentUpon>JpegImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JpegImage.aspx.designer.cs">
+      <DependentUpon>JpegImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainFeed.aspx.cs">
+      <DependentUpon>MainFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainFeed.aspx.designer.cs">
+      <DependentUpon>MainFeed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rss.ashx.cs">
+      <DependentUpon>rss.ashx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\BlogAnmelden.Template.txt" />
+    <Content Include="App_Data\Bloggers.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\itproblogsAtom.xml" />
+    <Content Include="App_Data\itproblogsRss.xml" />
+    <Content Include="App_Data\Links.xml" />
+    <Content Include="App_Data\Friends.xml" />
+    <Content Include="atom.ashx" />
+    <Content Include="bin\blowery.Web.HttpCompress.dll" />
+    <Content Include="Blogs.Master" />
+    <None Include="css\navigation\images\sliding_door\gfx_sliding_door.psd" />
+    <Content Include="images\friends\dotnetgermanbloggers.png" />
+    <Content Include="images\itproblogs408x72.png" />
+    <Content Include="images\links_headline.png" />
+    <Content Include="images\rss_64x72_reflected.png" />
+    <Content Include="images\twitter_icon55x72.png" />
+    <Content Include="images\world_go.png" />
+    <Content Include="rss.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1569</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

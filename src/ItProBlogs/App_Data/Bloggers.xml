@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<bloggers>
+	<blogger>
+		<name>Daniel Melanchthon [MS]</name>
+		<blogurl>http://blogs.technet.com/dmelanchthon</blogurl>
+		<blogfeedurl>http://blogs.technet.com/dmelanchthon/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Dieter Rauscher</name>
+		<blogurl>http://msmvps.com/blogs/rauscher/</blogurl>
+		<blogfeedurl>http://msmvps.com/blogs/rauscher/rss.aspx</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Dieter Schiecke</name>
+		<blogurl>http://www.ppt-user.de/blogger/</blogurl>
+		<blogfeedurl>http://www.ppt-user.de/blogger/?feed=rss2</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Fabian Moritz</name>
+		<blogurl>http://weblogs.mysharepoint.de/fabianm/</blogurl>
+		<blogfeedurl>http://weblogs.mysharepoint.de/fabianm/rss.aspx</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>faq-o-matic</name>
+		<blogurl>http://www.faq-o-matic.net/</blogurl>
+		<blogfeedurl>http://www.faq-o-matic.net/feed/</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Frank Solinske</name>
+		<blogurl>http://blog.solinske.de/</blogurl>
+		<blogfeedurl>http://blog.solinske.de/SyndicationService.asmx/GetRss</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>IT Pro Schweiz [MS]</name>
+		<blogurl>http://blogs.technet.com/chitpro-de/</blogurl>
+		<blogfeedurl>http://blogs.technet.com/chitpro-de/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Jens Häupel</name>
+		<blogurl>http://blogs.msdn.com/jensha/default.aspx</blogurl>
+		<blogfeedurl>http://blogs.msdn.com/jensha/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Johannes Schmidt</name>
+		<blogurl>http://www.security-blog.eu</blogurl>
+		<blogfeedurl>http://www.security-blog.eu/feed/</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Kay Giza [MS]</name>
+		<blogurl>http://www.giza-blog.de/CategoryView,category,Windows.aspx</blogurl>
+		<blogfeedurl>http://www.giza-blog.de/SyndicationService.asmx/GetRssCategory?categoryName=Windows</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Marc Grote</name>
+		<blogurl>http://blog.it-training-grote.de/</blogurl>
+		<blogfeedurl>http://81.209.195.190/SyndicationService.asmx/GetRssCategory?categoryName=itproblogs.de</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Mark Heitbrink</name>
+		<blogurl>http://www.gruppenrichtlinien.de/</blogurl>
+		<blogfeedurl>http://www.gruppenrichtlinien.de/xml/gpo-rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Markus Mohmeyer</name>
+		<blogurl>http://msg-blog.de/</blogurl>
+		<blogfeedurl>http://feeds.feedburner.com/MarkusMsMessagingBlog</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Michael Greth</name>
+		<blogurl>http://weblogs.mysharepoint.de/mgreth/</blogurl>
+		<blogfeedurl>http://feeds.feedburner.com/MichaelGreth</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Michael Kalbe [MS]</name>
+		<blogurl>http://blogs.technet.com/mkalbe/</blogurl>
+		<blogfeedurl>http://blogs.technet.com/mkalbe/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Michael Korp [MS]</name>
+		<blogurl>http://blogs.technet.com/mkorp/</blogurl>
+		<blogfeedurl>http://blogs.technet.com/mkorp/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Nail Own</name>
+		<blogurl>http://cluadmin.de</blogurl>
+		<blogfeedurl>http://www.cluadmin.de/feed/</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Nicki Wruck</name>
+		<blogurl>http://blog.ice-lingen.de/</blogurl>
+		<blogfeedurl>http://blog.ice-lingen.de/SyndicationService.asmx/GetRss</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Ralf Schnell [MS]</name>
+		<blogurl>http://blogs.technet.com/ralfschnell/</blogurl>
+		<blogfeedurl>http://blogs.technet.com/ralfschnell/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Scolab</name>
+		<blogurl>http://www.scolab.ch</blogurl>
+		<blogfeedurl>http://www.scolab.ch/feed</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>SharePointPodcast</name>
+		<blogurl>http://www.sharepointpodcast.de/</blogurl>
+		<blogfeedurl>http://feeds.feedburner.com/SharepointPodcast</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Steffen Fischer</name>
+		<blogurl>http://weblogs.mysharepoint.de/fischers/</blogurl>
+		<blogfeedurl>http://weblogs.mysharepoint.de/fischers/rss.aspx</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Steffen Krause [MS]</name>
+		<blogurl>http://blogs.technet.com/steffenk/</blogurl>
+		<blogfeedurl>http://blogs.technet.com/steffenk/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>TechNet Austria</name>
+		<blogurl>http://blogs.technet.com/austria/default.aspx</blogurl>
+		<blogfeedurl>http://blogs.technet.com/austria/rss.xml</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Torsten Meringer</name>
+		<blogurl>http://mssmsfaq.spaces.live.com/</blogurl>
+		<blogfeedurl>http://mssmsfaq.spaces.live.com/feed.rss</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Willmar Heinrich</name>
+		<blogurl>http://willmarheinrich.spaces.live.com/</blogurl>
+		<blogfeedurl>http://willmarheinrich.spaces.live.com/feed.rss</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Wolfgang Sauer</name>
+		<blogurl>http://wolfgang-on-the-road.spaces.live.com/</blogurl>
+		<blogfeedurl>http://wolfgang-on-the-road.spaces.live.com/feed.rss</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+	<blogger>
+		<name>Yusuf Dikmenoglu</name>
+		<blogurl>http://blog.dikmenoglu.de/</blogurl>
+		<blogfeedurl>http://blog.dikmenoglu.de/SyndicationService.asmx/GetRss</blogfeedurl>
+		<feedtype>RSS</feedtype>
+	</blogger>
+</bloggers>

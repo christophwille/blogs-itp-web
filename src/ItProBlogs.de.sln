@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItProBlogs", "ItProBlogs\ItProBlogs.csproj", "{BFB8D482-5E83-481C-BAB9-92338EF31CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaFeedConsole", "MetaFeedConsole\MetaFeedConsole.csproj", "{DAF3485A-373D-4203-86CC-E65D0CF66982}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ItProBlogs.de.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB8D482-5E83-481C-BAB9-92338EF31CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB8D482-5E83-481C-BAB9-92338EF31CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB8D482-5E83-481C-BAB9-92338EF31CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB8D482-5E83-481C-BAB9-92338EF31CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF3485A-373D-4203-86CC-E65D0CF66982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF3485A-373D-4203-86CC-E65D0CF66982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF3485A-373D-4203-86CC-E65D0CF66982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF3485A-373D-4203-86CC-E65D0CF66982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
