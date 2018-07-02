@@ -1,0 +1,6 @@
+﻿Es liegt eine neue Bloganmeldung vor:
+
+Vor- und Nachname:	<%FullName%>
+Blog-Url:			<%BlogUrl%>
+Blog-Feed-Url:		<%BlogFeedUrl%>
+E-Mail:				<%EMail%>

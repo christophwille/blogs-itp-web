@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<links>
+	<link>
+		<name>Community Guide - Server</name>
+		<url>http://www.microsoft.de/community/server/</url>
+	</link>
+	<link>
+		<name>Windows Server</name>
+		<url>
+			http://msdn2.microsoft.com/de-de/windowsserver/default(en-us).aspx
+		</url>
+	</link>
+</links>

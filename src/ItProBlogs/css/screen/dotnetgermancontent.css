@@ -1,0 +1,70 @@
+﻿tr.odd td
+{
+	background: #F4D6BA;
+}
+
+tr 
+{
+	background:#ddd;
+}
+
+tr.odd th
+{
+	background: #F2AD71;
+}
+
+thead th a 
+{
+	color:#ddd;
+	border-bottom: 1px dashed #ddd;
+}
+
+thead th a:focus, 
+thead th a:hover,
+thead th a:active {color: #ddd;}
+
+tbody th a 
+{
+	color:#505050;
+	border-bottom: 1px dashed #505050;
+
+}
+
+table.centeredtable td 
+{
+	text-align:center;
+	width: 16.67%;
+}
+
+table.centeredtable thead th 
+{
+	width: 16.67%;
+	text-align:center;
+}
+
+table.centeredtable th 
+{
+	width: 16.67%;
+}
+
+a.imglink 
+{
+	border:none;
+}
+
+input[type = "text"] 
+{
+	width:200px;
+	border: solid 1px #505050;
+	background-image: url(/images/bg_input.png);
+	color: #505050;
+}
+
+.error 
+{
+	color:#FA9C3A;
+}
+
+img {
+	max-width: 650px;
+}

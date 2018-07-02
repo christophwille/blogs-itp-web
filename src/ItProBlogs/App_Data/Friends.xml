@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<friends>
+	<friend>
+		<name>Technet-Foren</name>
+		<url>http://social.technet.microsoft.com/Forums/de-DE/categories/</url>
+		<banner>technet.png</banner>
+	</friend>
+	<friend>
+		<name>cloudbloggers.de - die Blogs der deutschen Cloud Computing-Community</name>
+		<url>http://cloudbloggers.de</url>
+		<banner>cloudbloggers.png</banner>
+	</friend>
+	<friend>
+		<name>DotNetGerman Bloggers</name>
+		<url>http://blogs.dotnetgerman.com</url>
+		<banner>dotnetgermanbloggers.png</banner>
+	</friend>
+  <friend>
+    <name>SQLServerBlogs.de - Die Blogs der deutschen SQL Server Community</name>
+    <url>http://sqlserverblogs.de</url>
+    <banner>SqlServerBlogsLogo150x16.png</banner>
+  </friend>
+  <!--<friend>
+    <name>.NET Open Space Süd 2011 in Karlsruhe</name>
+    <url>http://karlsruhe.netopenspace.de</url>
+    <banner>badge150x151.png</banner>
+  </friend>-->
+</friends>

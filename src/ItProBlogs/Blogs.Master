@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Blogs.master.cs" Inherits="blogs.dotnetgerman.com.Blogs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>itproblogs.de</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- (en) Add your meta data here -->
+	<!-- (de) Fuegen Sie hier ihre Meta-Daten ein -->
+	<link href="css/layout_2col_left_seo.css" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 7]>
+<link href="css/patches/patch_2col_left_seo.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+    <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="<%=ConfigurationSettings.AppSettings["MetaFeedRssUri"] %>" />
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div class="DotNetGermanCommunityBar">
+		<a href="http://www.glengamoi.com">Glengamoi (Forum)</a> &middot; <a href="http://technet.microsoft.com/">
+			TechNet</a> &middot; <a href="http://blogs.technet.com/">Englische TechNet Blogs</a>
+		&middot; <a href="http://technet.microsoft.com/de-de/">TechNet Deutschland</a> &middot; <a href="http://itproblogs.de/"
+			style="font-weight: bold">itproblogs.de</a> &middot; <a href="http://blogs.dotnetgerman.com/">.NET Blogs</a>
+	</div>
+	<div id="page_margins">
+		<div id="page">
+			<div id="header">
+				<div id="topnav">
+					<!-- start: skip link navigation -->
+					<a class="skip" href="#navigation" title="skip link">Skip to the navigation</a><span
+						class="hideme">.</span> <a class="skip" href="#content" title="skip link">Skip to the
+							content</a><span class="hideme">.</span><a href="BlogVorschlagen.aspx">Blog anmelden</a>
+					|
+					<!-- end: skip link navigation -->
+					<span><a href="Impressum.aspx" title="Impressum und Blog-Anmeldung für itproblogs.de">
+						Impressum</a></span>
+				</div>
+				<a href="Default.aspx" class="imglink">
+					<img src="images/itproblogs408x72.png" alt="itproblogs.de Logo"
+						title="Zur Startseite von itproblogs.de" width="408" height="72" /></a>
+				<asp:HyperLink ID="RssHyperlink" runat="server" CssClass="imglink"><img 
+                    src="images/rss_64x72_reflected.png" alt="itproblogs.de RSS Logo" 
+                    title="RSS-Feed von itproblogs.de abonnieren" width="64" height="72" /></asp:HyperLink>
+                <a href="http://twitter.com/ItProBlogs" class="imglink"><img src="images/twitter_icon55x72.png" alt="Twitter Icon" title="ItProBlogs bei twitter verfolgen" /></a>                    
+				<br />
+				<span>Die Blogs der deutschen IT Pro-Community
+</span></div>
+			<!-- begin: main content area #main -->
+			<div id="main">
+				<!-- begin: #col1 - first float column -->
+				<div id="col1">
+					<div id="col1_content" class="clearfix">
+						<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+						</asp:ContentPlaceHolder>
+					</div>
+				</div>
+				<!-- end: #col1 -->
+				<!-- begin: #col3 static column -->
+				<div id="col3">
+					<div id="col3_content" class="clearfix">
+						<a id="content" name="content"></a>
+						<!-- skiplink anchor: Content -->
+						<p>
+							<img src="images/friends_headline.png" alt="friends header"
+								title="friends" width="84" height="28" />
+						</p>
+						<asp:ListView ID="FriendsListView" runat="server" DataSourceID="FriendsXmlDataSource"
+							ItemPlaceholderID="friendsContainer">
+							<ItemTemplate>
+								<li style="list-style-type: none;"><a href="<%#XPath("url")%>" class="imglink">
+									<img src="images/friends/<%#XPath("banner") %>" alt="<%#XPath("name") %>" title="<%#XPath("name") %>" /></a></li>
+							</ItemTemplate>
+							<LayoutTemplate>
+								<ul>
+									<ul id="friendsContainer" runat="server" style="margin-left: 0;">
+									</ul>
+								</ul>
+							</LayoutTemplate>
+						</asp:ListView>
+						<asp:XmlDataSource ID="FriendsXmlDataSource" runat="server" DataFile="~/App_Data/Friends.xml"
+							XPath="./friends/friend"></asp:XmlDataSource>
+						<p>
+												<img src="images/bloggers_headline.png" alt="bloggers headline"
+							title="bloggers" width="102" height="28" />
+							</p>
+						<asp:ListView ID="BloggerListView" runat="server" DataSourceID="BloggersXmlDataSource"
+							ItemPlaceholderID="bloggerContainer">
+							<ItemTemplate>
+								<li style="list-style-type: none;"><a href="<%#XPath("blogfeedurl") %>" class="imglink">
+									<img src="images/rss.png" style="border: none; vertical-align: text-top; padding-right: 5px;"
+										alt="RSS Logo" title="RSS-Feed von <%#XPath("name") %>" width="20" height="22" /></a><a href="<%#XPath("blogurl") %>"
+											title="Blog von <%#XPath("name") %>"><%#XPath("name") %></a></li>
+							</ItemTemplate>
+							<LayoutTemplate>
+								<ul>
+									<ul id="bloggerContainer" runat="server">
+									</ul>
+								</ul>
+							</LayoutTemplate>
+						</asp:ListView>
+						<asp:XmlDataSource ID="BloggersXmlDataSource" runat="server" DataFile="~/App_Data/Bloggers.xml"
+							XPath="./bloggers/blogger"></asp:XmlDataSource>
+						<p>
+							<img src="images/links_headline.png" alt="links header"
+								title="links" width="61" height="28" />
+						</p>
+						<asp:ListView ID="LinksListView" runat="server" DataSourceID="LinksXmlDataSource"
+							ItemPlaceholderID="linksContainer">
+							<ItemTemplate>
+								<li style="list-style-type: none;"><a href="<%#XPath("url") %>" class="imglink">
+									<img src="images/world_go.png" style="border: none; vertical-align: text-top; padding-right: 5px;"
+										alt="RSS Logo" title="RSS-Feed von <%#XPath("name") %>" width="20" height="16" /></a><a href="<%#XPath("url") %>"
+											title="<%#XPath("name") %>"><%#XPath("name") %></a></li>
+									
+							</ItemTemplate>
+							<LayoutTemplate>
+								<ul>
+									<ul id="linksContainer" runat="server" style="margin-left: 0;">
+									</ul>
+								</ul>
+							</LayoutTemplate>
+						</asp:ListView>
+						<asp:XmlDataSource ID="LinksXmlDataSource" runat="server" DataFile="~/App_Data/Links.xml"
+							XPath="./links/link"></asp:XmlDataSource>
+					</div>
+					<div id="ie_clearing">
+						&nbsp;</div>
+					<!-- End: IE Column Clearing -->
+				</div>
+				<!-- end: #col3 -->
+			</div>
+			<!-- end: #main -->
+			<!-- begin: #footer -->
+			<div id="footer">
+				©2000-<%=DateTime.Now.Year.ToString() %>
+				<a href="mailto:alex@alexonasp.net">itproblogs.de</a>, <a href="PrivacyPolicy.aspx">
+					Privacy Policy</a>, <a href="<%=ConfigurationSettings.AppSettings["MetaFeedAtomUri"] %>"
+						title="Atom Feed von itproblogs.de abonnieren">Atom Feed</a><br />
+				Alle Rechte vorbehalten. Der Inhalt dieser Seiten ist urheberrechtlich geschützt.<br />
+				Eine Übernahme von Texten oder Graphiken bedarf unserer schriftlichen Zustimmung.<br />
+				Layout basiert auf <a href="http://www.yaml.de/">YAML</a>.</div>
+			<!-- end: #footer -->
+		</div>
+	</div>
+	</form>
+	<div style="visibility: hidden;">
+		Don't <a href="mailto:fleischfalle@alphasierrapapa.com">contact us</a> via this
+		(fleischfalle@alphasierrapapa.com) email address.
+	</div>
+</body>
+</html>
